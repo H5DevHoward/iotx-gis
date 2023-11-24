@@ -218,7 +218,7 @@ ReactDOM.render(<App />);
 
 ## 意见或建议
 
-如果您有任何问题或建议，欢迎在 [issues](https://github.com/linkdesign/gis/issues) 中反馈
+如果您有任何问题或建议，欢迎在 [issues](https://github.com/H5DevHoward/linkdesign-gis/issues) 中反馈
 
 对组件库的建设有任何想法或建议，请联系：
 
