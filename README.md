@@ -2,7 +2,7 @@
 
 GIS 组件库
 
-基于高德地图，react组件化了一些基础覆盖物类，内置/封装了一些常用GIS工具函数、高德api以及功能组件；
+基于高德地图，react组件化了一些基础覆盖物类，内置/封装了一些常用GIS工具函数、[高德api](https://lbs.amap.com/api/javascript-api-v2/summary)以及功能组件；
 整合了[Leafletjs](https://leafletjs.com/)，支持离线地图；
 
 ![组件目录](https://intranetproxy.alipay.com/skylark/lark/0/2022/png/111014/1645414841083-07112e03-a004-496b-9d85-9f0d74ecca66.png) 
