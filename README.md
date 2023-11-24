@@ -1,4 +1,4 @@
-# iotx-gis (原 @linkdesign/gis)
+# @linkdesign/gis
 
 GIS 组件库
 
@@ -10,7 +10,7 @@ GIS 组件库
 ## 安装
 
 ```shell
-npm install iotx-gis --save
+npm install @linkdesign/gis --save
 ```
 
 ## 使用
@@ -21,13 +21,13 @@ npm install iotx-gis --save
 // In your entry
 // 内部依赖 @alifd/next，但打包编译后的样式文件不包含 @alifd/next 的样式（避免样式覆盖导致的诸多问题）
 // 如果没有引入，需要另外引入： import '@alifd/next/index.css';
-import 'iotx-gis/lib/index.less';
+import '@linkdesign/gis/lib/index.less';
 ```
 
 使用组件：
 
 ```js
-import { Map, Marker, Utils } from 'iotx-gis';
+import { Map, Marker, Utils } from '@linkdesign/gis';
 
 const { turf, gcoord } = Utils;
 ```
@@ -72,7 +72,7 @@ _**!!! demo 中使用的 key 都是测试专用，随时可能失效，切勿在
 ### Map
 
 ```jsx
-import { config, Map } from 'iotx-gis';
+import { config, Map } from '@linkdesign/gis';
 
 config.key = 'e51afcf01df9d306ad46e7614964ce3e';
 
@@ -102,7 +102,7 @@ ReactDOM.render(<App />);
 
 ```jsx
 import React, { useEffect, useRef } from 'react';
-import { Map, config, Utils, Marker, Polygon, Circle, Rectangle } from 'iotx-gis';
+import { Map, config, Utils, Marker, Polygon, Circle, Rectangle } from '@linkdesign/gis';
 
 const { gcoord, turf } = Utils;
 
@@ -218,7 +218,7 @@ ReactDOM.render(<App />);
 
 ## 意见或建议
 
-如果您有任何问题或建议，欢迎在 [issues](https://github.com/H5DevHoward/iotx-gis/issues) 中反馈
+如果您有任何问题或建议，欢迎在 [issues](https://github.com/H5DevHoward/@linkdesign/gis/issues) 中反馈
 
 对组件库的建设有任何想法或建议，请联系：
 
